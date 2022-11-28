@@ -1,0 +1,67 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  padding: 0rem 2.5rem;
+  position: sticky;
+  align-items: baseline;
+  background-color: #fdf5bf;
+  font-family: "Hind Guntur", sans-serif;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 1.3rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 30px;
+  overflow-x: auto;
+  font-weight: normal;
+}
+
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #7fc6a4;
+}
+
+body {
+  background-color: #c2bbf0;
+}
+
+main {
+  background-color: #ffd5ff;
+  margin: 4rem 10rem 0rem 10rem;
+  padding: 20px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  color: #7fc6a4;
+  font-size: 4rem;
+  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
+}
+h2 {
+  font-family: "Anek Devanagari", sans-serif;
+  color: #7fc6a4;
+  font-size: 1.6rem;
+  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+p {
+  font-family: "Anek Devanagari", sans-serif;
+  color: #7fc6a4;
+  font-size: 1.3rem;
+  padding: 1rem 1rem 0rem 1rem;
+}

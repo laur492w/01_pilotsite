@@ -53,10 +53,13 @@ body {
 
 footer {
   background-color: #fdf5bf;
+  color: #7fc6a4;
   font-family: "Hind Guntur", sans-serif;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  font-size: 1.3rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: right;
 }
 
 main {
@@ -74,12 +77,19 @@ h1 {
   padding: 1rem;
   padding: 1rem 1rem 0rem 1rem;
 }
+
 h2 {
   font-family: "Anek Devanagari", sans-serif;
   color: #7fc6a4;
+  font-size: 3.5rem;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+h3 {
+  font-family: "Anek Devanagari", sans-serif;
+  color: #7fc6a4;
   font-size: 1.6rem;
-  padding: 1rem;
-  padding: 1rem 1rem 0rem 1rem;
+  padding: 0rem 1rem 0rem 1rem;
 }
 
 p {
@@ -144,5 +154,5 @@ iframe {
 }
 
 .tekst {
-  align-items: center;
+  text-align: center;
 }

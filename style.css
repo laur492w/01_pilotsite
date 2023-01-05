@@ -113,7 +113,6 @@ p {
 
   .galleri_grid {
     display: grid;
-    height: 250px;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
